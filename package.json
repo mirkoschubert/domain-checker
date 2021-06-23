@@ -1,0 +1,26 @@
+{
+  "name": "domain-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "domain": "./bin/domain",
+    "domain-checker": "./bin/domain-checker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "fs-extra": "^10.0.0",
+    "moment": "^2.29.1",
+    "socks": "^2.6.1",
+    "underscore": "^1.13.1",
+    "whois-parsed-v2": "^1.0.1"
+  }
+}
